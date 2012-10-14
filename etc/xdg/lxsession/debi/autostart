@@ -1,0 +1,4 @@
+@lxpanel --profile debi
+@pcmanfm --desktop --profile debi
+@xscreensaver -no-splash
+@setxkbmap -layout "us,ar" -option "grp:alt_shift_toggle"

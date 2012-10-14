@@ -1,0 +1,16 @@
+Section: x11
+Priority: optional
+Maintainer: Mohamed Mohsen <linuxer9@gmail.com>
+Package: debi-default-settings
+Architecture: all
+version: 1.2.1
+Depends: lxsession, 
+         pcmanfm,
+	 lxpanel
+Suggests: amixer,
+            scrot,
+            galculator,
+            xscreensaver,
+            dmz-cursor-theme
+Description: default settings for debi Linux
+ Various system settings tailored for debi Linux.
