@@ -40,14 +40,14 @@ fi
 MOUSEPAD_CONF_DIR="$XDG_CONFIG_HOME/mousepad"
 if [ ! -f "$MOUSEPAD_CONF_DIR/mousepadrc" ]; then
     mkdir -p "$MOUSEPAD_CONF_DIR"
-    cp /usr/share/debi/mousepad/mousepadrc "$LEAFPAD_CONF_DIR/mousepadrc"
+    cp /usr/share/debi/mousepad/mousepadrc "$MOUSEPAD_CONF_DIR/"
 fi
 
 # Install custom configuration for roxterm
 ROX_CONF_DIR="$XDG_CONFIG_HOME/roxterm.sourceforge.net"
 if [ ! -f "$ROX_CONF_DIR/Global" ]; then
     mkdir -p "$ROX_CONF_DIR"
-    cp -R /usr/share/debi/roxterm.sourceforge.net "$LEAFPAD_CONF_DIR"
+    cp -R /usr/share/debi/roxterm.sourceforge.net "$XDG_CONFIG_HOME"
 fi
 
 # Clean up after GDM (GDM sets the number of desktops to one)
